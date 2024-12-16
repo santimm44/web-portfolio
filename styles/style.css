@@ -1,0 +1,116 @@
+:root{
+    --accent-color: #0CCA4A;
+    --foreground-color: #CCCCCC;
+    --background-color: #252525;
+}
+body{
+    background-color: #343b3f;
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+/*Temp element selector*/
+article{
+    background-color: var(--foreground-color);
+    grid-row: 3/16;
+    grid-column:11/23;
+    margin: 0 2rem 1.5rem;
+}
+/*Temp element selector*/
+
+.who-i-am-section{
+    grid-row: 3/14;
+    grid-column: 2/7;
+    color: #FFF;
+}
+.nav-item:hover{
+    transition: 400ms;
+    text-decoration: underline;
+    text-decoration-thickness:.25rem ;
+    text-decoration-color: var(--accent-color);
+}
+.nav-item-active{
+    text-shadow: 2px 2px var(--accent-color);
+}
+.portfolio-head-shot{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 25%;
+    box-shadow: 0 0 2rem 1rem #252525;
+    border: solid #252525 0.125rem;
+}
+
+.nav-bar{
+    background-color: #CCCCCC;
+
+    box-shadow: 0 0 2rem 1rem #000;
+
+    grid-row: 1/2;
+    grid-column: 1/23;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-page-btns{
+    width: 75%;
+}
+
+.justify-content__between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    box-shadow: 0 0 2rem 1rem #000;
+    grid-row: 16/17;
+    grid-column: 1/23;
+    background-color: #CCCCCC;   
+}
+.homepage-buttons{
+    border-radius: 1rem;
+    grid-column: 7/11;
+    margin-left: 2rem;
+}
+.homepage-buttons__regular-colors{
+    box-shadow: -.2rem .35rem 0rem .1rem #0CCA4A;
+    background-color: var(--foreground-color);
+}
+.homepage-buttons__active-colors{
+    box-shadow: -.2rem .35rem 0rem .1rem #d52941;
+    background-color: var(--foreground-color);
+}
+
+.homepage-buttons:hover{
+    box-shadow: -.2rem .35rem 0rem .1rem #d52941;
+}
+
+.homepage-buttons:active{
+    box-shadow: -.2rem .35rem 0rem .1rem #0CCA4A;
+}
+.github-btn{
+    grid-row: 5/6;
+}
+.socials-btn{
+    grid-row: 9/10;
+}
+.wain-btn{
+    grid-row: 11/12;
+}
+.interests-btn{
+    grid-row: 7/8;
+}
+.ctiad-btn{
+    grid-row: 3/4;
+}
+
+.show-content{
+    display: contents;
+}
+.hide-content{
+    display: none;
+}

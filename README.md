@@ -6,7 +6,7 @@
   * About Me Page
     * Share your background, your journey into software engineering, and what motivates you. This helps personalize the portfolio and allows visitors to connect with your story.
   * Interests
-  * Blog
+  * Blog - maybe combine interests into blog somehow
   * Resume page
   * Project
     * For each project, provide a card or list view with the title, a short description, and a thumbnail image or screenshot. This makes it easy for visitors to quickly scan your projects.
