@@ -6,7 +6,13 @@
 body{
     background-color: #343b3f;
     margin: 0;
+    min-height: 100vh;
+    position: relative;
 }
+.line-height-adjust{
+    line-height: 2;
+}
+
 .index-body{
     display: grid;
     grid-template-columns: repeat(22, 1fr);
@@ -48,6 +54,9 @@ article{
 .nav-bar{
     background-color: #CCCCCC;
 
+    position: sticky;
+    top: 0;
+
     box-shadow: 0 0 2rem 1rem #000;
 
     grid-row: 1/2;
@@ -65,12 +74,44 @@ article{
     display: flex;
     justify-content: space-between;
 }
+.justify-content__around{
+    display: flex;
+    justify-content: space-around;
+}
+.justify-content__start{
+    display: flex;
+    justify-content:start;
+}
+.justify-content__center{
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
 
-.footer{
+.index-footer{
     box-shadow: 0 0 2rem 1rem #000;
     grid-row: 16/17;
     grid-column: 1/23;
     background-color: #CCCCCC;   
+}
+.footer{
+    box-shadow: 0 0 2rem 1rem #000;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--foreground-color);
+    height: auto;
+    width: 100%;
+}
+.footer-headers{
+    text-decoration: underline;
+    text-decoration-color: #0CCA4A;
+    text-decoration-thickness: .2rem;
+}
+.text-link{
+    text-decoration: underline;
+    text-decoration-color: #0CCA4A;
+    font-weight: bold;
+    text-decoration-thickness: .2rem;
 }
 .homepage-buttons{
     border-radius: 1rem;
@@ -118,4 +159,33 @@ article{
 
 a{
     color: black;
+    text-decoration: none;
+}
+
+.logo-size{
+    width: 100%;
+    height: auto;
+}
+.margin-left-half-rem{
+    margin-left: .5rem;
+}
+.margin-left-one-rem{
+    margin-left: 1rem;
+}
+.temp{
+    max-width: 16%;
+    width: 8%;
+}
+
+.main-content{
+    padding: 3rem 5rem 13rem;
+}
+.padding-bottom-1{
+    padding-bottom: 1rem;
+}
+.margin-bottom-1{
+    margin-bottom: 1rem;
+}
+.margin-bottom-2{
+    margin-bottom: 2rem;
 }
