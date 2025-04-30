@@ -33,7 +33,7 @@ const page = () => {
 
             </div>
             {/* Right Side of screen */}
-            <article id="ctiadSection" className="text-white w-2/3 p-4 columns-2 border min-h-screen">
+            <article id="ctiadSection" className="text-white w-2/3 p-4 columns-2 min-h-screen">
                 <div className='break-inside-avoid'>
                     <h2 className='font-bold text-2xl MB-2'>This Web portfolio</h2>
                     <p className="leading-7">
