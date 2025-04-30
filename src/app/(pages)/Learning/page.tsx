@@ -81,7 +81,7 @@ const page = () => {
           By understanding the foundations of backend development through Express.js, I aim to build more robust, scalable, and well-structured full-stack applications.
         </p>
 
-        <h3 className='text-4xl '>Key Areas I'm Exploring</h3>
+        <h3 className='text-4xl '>Key Areas I&apos;m Exploring</h3>
 
         <p>These are the main concepts I&apos;m focusing on as I learn Express.js:</p>
 
