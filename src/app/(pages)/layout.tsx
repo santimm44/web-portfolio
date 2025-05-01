@@ -1,8 +1,14 @@
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@radix-ui/react-navigation-menu'
+import { Metadata } from 'next';
 // import Github from '../assets/svg-logos-brands/github-brands.svg'
 import React from 'react'
 
 // import {faGithub} from '@awesome'
+
+export const metadata: Metadata = {
+    title: "Hire Me | Santiago",
+    description: "A snapshot of my skills, experience, education, and the technologies I’ve worked with. Downloadable and easy to scan for hiring managers and collaborators.",
+  };
 
 const layout = ({ children }: { children: React.ReactNode }) => {
     return (

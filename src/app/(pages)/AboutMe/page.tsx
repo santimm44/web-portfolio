@@ -1,9 +1,18 @@
+import { Metadata } from 'next';
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Crafting Code | Santiago",
+    description: "Hi, I'm Santiago Montañez — a passionate full-stack developer who loves building web experiences from the ground up. This page shares my journey, values, and what drives me to keep learning and creating in tech.",
+  };
 
 const page = () => {
 
     return (
+        <>
+
         <div className='flex'>
             <div className='w-1/3 flex justify-around'>
                 {/* Left Side of Screen */}
@@ -71,6 +80,7 @@ const page = () => {
             </article>
 
         </div>
+        </>
     )
 }
 

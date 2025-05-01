@@ -1,6 +1,12 @@
 import { ProjectCards, ProjectRowCards } from '@/components/custom/CustomCards'
 import React from 'react'
 
+export const metadata = {
+    title: "Projects & Experiments | Santiago",
+    description: "A showcase of the web apps, tools, and experiments I’ve built. Each project highlights my skills in action, from frontend design to backend logic and full-stack architecture.",
+  };
+
+
 const page = () => {
     return (
         <div>
