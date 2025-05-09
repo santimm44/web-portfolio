@@ -3,22 +3,21 @@ import { Card } from '../ui/card'
 import { Button } from '../ui/button'
 import Image from 'next/image'
 
-const ProjectCards = () => {
+const ProjectCards = ({ title, projectLink, description, imagePath, altText, techStack }: { title: string, projectLink: string, description: string, imagePath: string, altText: string, techStack: string }) => {
     return (
-        <div className="group absolute max-w-xs rounded-2xl overflow-hidden shadow-lg bg-zinc-900 hover:shadow-cyan-500/40 transition-shadow duration-900">
-            <img src="/spotme.png" alt="Project" className="w-full h-48 object-cover" />
+        <div className="group h-full max-w-xs overflow-hidden shadow-[0px_0px_0px_4px_#0CCA4A] bg-zinc-900 hover:shadow-[#4ca7f2] transition-shadow duration-900">
+            <img src={imagePath} alt={altText} className="w-full h-48 object-cover" />
             <div className="p-4">
-                <h3 className="text-lg font-semibold text-white">Project Title</h3>
-                <div className="text-sm text-zinc-300 line-clamp-2 group-hover:line-clamp-none transition-all duration-900">
+                <h3 className="text-3xl font-bangers text-white">{title} | {techStack}</h3>
+                <div className=" text-zinc-300  group-hover:line-clamp-none transition-all duration-900">
                     <p className='indent-6'>
-                        This is a full-stack web application I designed and built to help people stay active, motivated, and connected in their fitness journey.
-                    </p>
-                    <p className='indent-6'>
-                        Unlike traditional social media, this platform isn&apos;t about sharing selfies or scrolling endlessly — it&apos;s focused on finding gym partners, joining local fitness communities, and connecting with verified trainers and coaches. Whether you&apos;re new to fitness or a seasoned athlete, the platform helps you build real-world connections around health and wellness.
+                        {description}
                     </p>
                 </div>
-                <span className="inline-block mt-2 text-sm text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                    View Project →
+                <span className="inline-block font-bangers mt-2 text-sm hover:underline hover:font-bold text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <a href={projectLink} rel="noopener noreferrer">
+                        View Project Page →
+                    </a>
                 </span>
             </div>
         </div>
@@ -50,9 +49,9 @@ const BlogRowCards = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga magnam consequuntur dicta? Ullam perspiciatis, debitis quas, et magnam repellendus doloribus, atque officia cupiditate voluptas maiores alias commodi quaerat deleniti.
             </p>
             <div className='place-items-center'>
-            <Button className="mt-2 text-sm text-red-400 w-1/4 bg-transparent">
-                View Article →
-            </Button>
+                <Button className="mt-2 text-sm text-red-400 w-1/4 bg-transparent">
+                    View Article →
+                </Button>
             </div>
         </Card>
     )

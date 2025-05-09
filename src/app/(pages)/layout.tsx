@@ -1,47 +1,68 @@
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@radix-ui/react-navigation-menu'
+import CustomButton from '@/components/custom/Button';
 import { Metadata } from 'next';
-// import Github from '../assets/svg-logos-brands/github-brands.svg'
 import React from 'react'
-
-// import {faGithub} from '@awesome'
 
 export const metadata: Metadata = {
     title: "Hire Me | Santiago",
     description: "A snapshot of my skills, experience, education, and the technologies I’ve worked with. Downloadable and easy to scan for hiring managers and collaborators.",
-  };
+};
 
 const layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className='bg-[#252525] min-h-screen flex flex-col justify-between'>
-            <div id='children'>
-                <div className='bg-customForegroud mb-[3rem]'>
-                    <NavigationMenu className='p-2.5'>
-                        <NavigationMenuList>
-                            <NavigationMenuItem className='flex'>
-                                <NavigationMenuLink href='/AboutMe' className='text-black bg-transparent'>
-                                    About Me
-                                </NavigationMenuLink>
-                                <NavigationMenuLink href='/Blog' className='text-black bg-transparent ms-2'>
-                                    Blog
-                                </NavigationMenuLink>
-                                <NavigationMenuLink href='/Learning' className='text-black bg-transparent ms-2'>
-                                    Learning
-                                </NavigationMenuLink>
-                                <NavigationMenuLink href='/Projects' className='text-black bg-transparent ms-2'>
-                                    Projects
-                                </NavigationMenuLink>
-                                <NavigationMenuLink href='/Resume' className='text-black bg-transparent ms-2'>
-                                    Resume
-                                </NavigationMenuLink>
-                            </NavigationMenuItem>
-                        </NavigationMenuList>
-                    </NavigationMenu>
-                </div>
+        // Original BG before the dot class was made bg-[linear-gradient(to_bottom,_#2d1b3c,_#1a2c2e)]
+        <div>
+            <div className=' background-dots min-h-screen relative flex flex-col justify-between'>
+
                 {children}
+                <div className='bg-[#4ca7f2] fixed shadow-[0px_0px_0px_4px_black] p-[1%]  left-[2%] top-[10%] gap-y-[4%] h-[66vh] w-[11%] flex flex-col flex-wrap'>
+                    <div>
+                        <a href="#TechStack">
+                            <CustomButton text='Tech Stack' />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#Experience">
+                            <CustomButton text='Experience' />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#Projects">
+
+                            <CustomButton text='Projects' />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#NotJustADeveloper">
+                            <CustomButton text='Not Just a Developer' />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#Socials">
+                            <CustomButton text='Socials' />
+                        </a>
+                    </div>
+                    <div className='flex-wrap'>
+                        <a href="/SantiagoJMontanez-Resume.pdf" download>
+                            <CustomButton text='Download my Resume' />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="mailto:santiagomm44@gmail.com">
+                            <CustomButton text='Email Me' />
+
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="tel:+12094792335">
+                            <CustomButton text='Call'/>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
-            <footer className='bg-customForegroud flex ps-[25%] pe-[25%]'>
-                {/* <Github/> */}
-            </footer>
         </div>
     )
 }

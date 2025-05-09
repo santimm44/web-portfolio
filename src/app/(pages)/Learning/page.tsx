@@ -10,13 +10,34 @@ const page = () => {
   return (
     <div className='text-white p-[2rem_16rem]'>
 
-      <div className='columns-2 gap-x-32 '>
+      {/* <div className='mb-36'>
+        <h2>Table of Contents</h2>
+        <ul className='indent-4 list-disc list-inside'>
+          <li>
+            <a className='text-blue-400 font-bold hover:text-customAccentColorGreen underline italic' href="subjectA" rel="noopener noreferrer">
+              React & Next.JS
+            </a>
+          </li>
+          <li>
+            <a className='text-blue-400 font-bold hover:text-customAccentColorGreen underline italic' href="subjectB" rel="noopener noreferrer">
+              SignalR & WebSockects
+            </a>
+          </li>
+          <li>
+            <a className='text-blue-400 font-bold hover:text-customAccentColorGreen underline italic' href="#subjectC" rel="noopener noreferrer">
+              Express.js & Backend Fundamentals
+            </a>
+          </li>
+        </ul>
+      </div> */}
 
-        <div id="subjectA" className='mb-12'>
+      <div>
+
+        <div id="subjectA" className='mb-36'>
           <h2 className='text-7xl mb-6 '>
             React & Next.JS
           </h2>
-          <div className='columns-2'>
+          <div className='columns-2 mb-6'>
             <div className='break-inside-avoid'>
               <h3 className='text-4xl '> What I hope to learn</h3>
               <p>I&apos;m currently working to strengthen my skills in the following areas:</p>
@@ -53,8 +74,14 @@ const page = () => {
               </p>
             </div>
           </div>
+
+          <div className='flex justify-around'>
+
+          </div>
         </div>
-        <div id="subjectB" className='mb-12 break-inside-avoid'>
+
+
+        <div id="subjectB" className='mb-36'>
           <h2 className='text-7xl mb-6'>
             SignalR & WebSockets
           </h2>
@@ -63,7 +90,7 @@ const page = () => {
             <br />
             While I&apos;m just beginning this journey, I&apos;m genuinely excited to continue learning about both <b className='text-customAccentColorGreen'>WebSockets</b> and <b className='text-customAccentColorGreen'>SignalR</b>, beyond just what&apos;s needed for the current project.</p>
           <div className='columns-2'>
-            <div className=''>
+            <div className='break-inside-avoid'>
               <h3 className='text-4xl '>Key Areas I&apos;m Exploring</h3>
               <p>Here are the core areas I&apos;m focused on mastering:</p>
               <ul className='indent-4 list-disc list-inside'>
@@ -77,7 +104,7 @@ const page = () => {
         </div>
       </div>
 
-      <div id="subjectC" className='mb-12'>
+      <div id="subjectC" className='mb-36'>
         <h2 className='text-7xl mb-6'>
           Express.js & Backend Fundamentals
         </h2>

@@ -1,4 +1,4 @@
-import { ProjectCards, ProjectRowCards } from '@/components/custom/CustomCards'
+import { ProjectRowCards } from '@/components/custom/CustomCards'
 import React from 'react'
 
 export const metadata = {
@@ -14,14 +14,13 @@ const page = () => {
                 <h1 className='text-white text-5xl font-semibold mb-[2rem]'>Highlighted Projects</h1>
                 <div className='flex justify-evenly h-[50vh] border'>
                     <div>
-                        <ProjectCards />
-                    </div>
-                    <div>
-                        <ProjectCards />
+
                     </div>
                     <div>
 
-                        <ProjectCards />
+                    </div>
+                    <div>
+
                     </div>
                 </div>
             </section>
@@ -29,7 +28,7 @@ const page = () => {
             <section id='ongoingProjects' className='mb-[6rem] '>
             <h1 className='text-white text-5xl font-semibold mb-[2rem]'>Ongoing Projects</h1>
             <div className='flex justify-evenly h-[50vh]'>
-                <ProjectCards />
+
             </div>
             </section>
 

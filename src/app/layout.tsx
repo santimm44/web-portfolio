@@ -1,14 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair, Bangers } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const playfair = Playfair({
   subsets: ["latin"],
+  variable: "--font-playfair",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const bangers = Bangers({
+  weight: "400",
   subsets: ["latin"],
+  variable: "--font-bangers",
 });
 
 export default function RootLayout({
@@ -17,10 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${playfair.variable} ${bangers.variable}`}>
+      <body className="antialiased font-playfair">
         {children}
       </body>
     </html>
