@@ -30,19 +30,14 @@ const page = () => {
                             </svg>
                             <div className="panel-content">
                                 <h1 className=' font-bangers text-3xl mb-2 '>Hi, I&apos;m Santiago Montañez</h1>
-                                <h2 className='font-bangers text-xl mb-8'>
+                                <h2 className='font-bangers text-xl mb-4'>
                                     Full-Stack Web Developer | API Specialist | Builder of Meaningful Tech
                                 </h2>
-                                <div>
+                                <div className=''>
                                     <p className='indent-4'>
                                         I&apos;m a passionate full-stack developer with a strong focus on back-end and API development using C#, ASP.NET, and JavaScript/TypeScript. I specialize in building scalable web applications and clean, well-documented APIs that serve real-world needs. My front-end experience includes React, Next.js, and Tailwind CSS, allowing me to bring full projects to life from database to UI.
                                     </p>
-                                    <p className='indent-4'>
-                                        Beyond code, I care deeply about creating tools and platforms that empower people—especially in spaces like developer productivity, education, and tech for good. I&apos;m always learning, always building, and always looking to grow both as a developer and as a teammate.
-                                    </p>
-                                    <p className='indent-4'>
-                                        Whether I&apos;m collaborating with a team or leading a solo project, I bring attention to detail, curiosity, and a strong sense of ownership to everything I work on.
-                                    </p>
+
                                 </div>
                             </div>
 
@@ -106,25 +101,15 @@ const page = () => {
                                 <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
                             </svg>
                             <div className="panel-content">
-                                <h2 className='font-bangers comic-text text-2xl mb-8'>
-                                    Team Lead for Fullstack
+                                <div className='mb-8'>
+                                <h2 className='font-bangers comic-text text-2xl '>
+                                    Team Lead - SpotMe App
                                 </h2>
+                                <h3>Next.js | Dotnet 8 | TypeScript | C# | SignalR</h3>
+                                </div>
                                 <div className='pb-12'>
                                     <p className='indent-4'>
-                                        I am always adament in supporting the American Red Cross.
-                                        I truly believe that by supporting them I am helping save others.
-                                        If I can convince one other person then I will be happy.
-                                        Think about it like this, once every 56 days you make a quick 20 minute whole blood donation.
-                                        Nothing to it, really, and by doing it you can save someone who may be in critical need.
-                                        If you can wait in a long Starbucks line for coffee everyday then I am confident this will be a no breezer.
-                                    </p>
-                                    <p className='indent-4'>
-                                        I try to go and donate as often as possible.
-                                        I have stopped doing whole blood donations sometime ago in order to focus on platelet donations.
-                                        If you are new to donating then be warned, donating platelets isn&apos;t for everyone.
-                                        The process is a lot longer, but I suggest getting details from a blood collection staff in ARC (American Red Cross) before deciding if you are up to it.
-                                        Also, if you want to be a part of a community of donors, then check out my the team I created in ARC.
-                                        <a className="text-blue-500 underline" target="_blank" href="https://redcrossblood.app.link/jointeam-6769e59d1c7ac/78495"> Asclepius</a>
+                                    Team lead for the SpotMe project, responsible for delivering clear project overviews, defining timelines for key deliverables, and supporting team members in overcoming technical challenges. Oversees the development of real-time communication features using SignalR, along with user integration and overall user experience within the web application.
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +131,7 @@ const page = () => {
 
 
                     <div className='mb-20' id='NotJustADeveloper'>
-                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Not just a Developer</h2>
+                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Beyond Dev</h2>
 
                         <section className="comic-panel">
                             <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
@@ -156,22 +141,10 @@ const page = () => {
                                 <h2 className='font-bangers comic-text text-end text-xl mb-8'>
                                     Donor at American Red Cross
                                 </h2>
-                                <div className='p-3'>
+                                <div className=''>
                                     <p className='indent-4'>
-                                        I am always adament in supporting the American Red Cross.
-                                        I truly believe that by supporting them I am helping save others.
-                                        If I can convince one other person then I will be happy.
-                                        Think about it like this, once every 56 days you make a quick 20 minute whole blood donation.
-                                        Nothing to it, really, and by doing it you can save someone who may be in critical need.
-                                        If you can wait in a long Starbucks line for coffee everyday then I am confident this will be a no breezer.
-                                    </p>
-                                    <p className='indent-4'>
-                                        I try to go and donate as often as possible.
-                                        I have stopped doing whole blood donations sometime ago in order to focus on platelet donations.
-                                        If you are new to donating then be warned, donating platelets isn&apos;t for everyone.
-                                        The process is a lot longer, but I suggest getting details from a blood collection staff in ARC (American Red Cross) before deciding if you are up to it.
-                                        Also, if you want to be a part of a community of donors, then check out my the team I created in ARC.
-                                        <a className="text-blue-500 underline" target="_blank" href="https://redcrossblood.app.link/jointeam-6769e59d1c7ac/78495"> Asclepius</a>
+                                    I'm a committed supporter of the American Red Cross because I believe donating blood is a simple act that can save lives. Every 56 days, a quick 20-minute whole blood donation can make the difference for someone in critical need—it's easier than waiting in line for coffee. While I now focus on platelet donations, which take longer and aren't for everyone, I encourage anyone interested to talk to ARC staff and learn more. If you're looking to join a donor community, check out my ARC team:
+                                        <a className="text-blue-500 underline" target="_blank" href="https://redcrossblood.app.link/jointeam-6769e59d1c7ac/78495"> Asclepius.</a>
                                     </p>
                                 </div>
                             </div>
@@ -183,7 +156,7 @@ const page = () => {
                             <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Socials</h2>
                         </div>
 
-                        <div className='border-6 border-black flex justify-around bg-[#3a3f45] h-[20vh] p-4'>
+                        <div className='border-6 border-black flex justify-around bg-[#3a3f45] h-[20vh]'>
                             <div className='h-full rounded-2xl p-4 border-transparent border-4 hover:bg-[#4ca7f2] hover:border-[#FF7C16]'>
                                 <a href="https://github.com/santimm44" target="_blank" rel="noopener noreferrer">
                                     <div className='place-content-center place-items-center'>

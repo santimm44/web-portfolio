@@ -33,7 +33,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
                     </div>
                     <div>
                         <a href="#NotJustADeveloper">
-                            <CustomButton text='Not Just a Developer' />
+                            <CustomButton text='Beyond Dev' />
                         </a>
                     </div>
                     <div>
@@ -43,7 +43,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
                     </div>
                     <div className='flex-wrap'>
                         <a href="/SantiagoJMontanez-Resume.pdf" download>
-                            <CustomButton text='Download my Resume' />
+                            <CustomButton text='Resume' />
                         </a>
                     </div>
 
