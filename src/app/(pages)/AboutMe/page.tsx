@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { ProjectCards } from '@/components/custom/CustomCards';
 
+import nextjsIcon from '/public/icons/nextjs.png'
 
 export const metadata: Metadata = {
     title: "Crafting Code | Santiago",
@@ -54,59 +55,41 @@ const page = () => {
             <div className='flex flex-col items-center mb-[10vh]'>
                 <div className="text-white w-2/3 ">
                     <div className='mb-20' id='TechStack'>
-                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#4ca7f2] border-customAccentColorGreen w-1/3 pl-9 mb-10 items-end'>Tech Stack</h2>
+                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end'>Tech Stack</h2>
 
                         <div className='border-6 border-black grid grid-cols-4 grid-rows-2 gap-4 bg-[#3a3f45] p-4'>
 
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/nextjs.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Next.js</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className=' h-1/2 w-max' src={nextjsIcon} alt='Github Icon / button' />
+                                <h3 className='font-bangers comic-text text-4xl '>Next.js</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/CSS.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>CSS</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/CSS.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>CSS</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/typescript.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>TypeScript</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/typescript.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>TypeScript</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/csharp.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>C#</h3>
-                                </div>
-
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/csharp.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>C#</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/azure.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Azure</h3>
-                                </div>
-
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/azure.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>Azure</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/git.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Git</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/git.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>Git</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/figma.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Figma</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/figma.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>Figma</h3>
                             </div>
-                            <div className='h-full rounded-2xl p-4 border-customAccentColorGreen border-4 bg-[#4ca7f2]'>
-                                <div className='place-content-center place-items-center'>
-                                    <Image src='/icons/vscode.png' alt='Github Icon / button' width={80} height={80} />
-                                    <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>VS Code</h3>
-                                </div>
+                            <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between items-center'>
+                                <Image className='h-1/2 w-max' src='/icons/vscode.png' alt='Github Icon / button' width={80} height={80} />
+                                <h3 className='font-bangers comic-text text-4xl'>VS Code</h3>
                             </div>
                         </div>
 
@@ -115,12 +98,12 @@ const page = () => {
 
                     <div className='mb-20'>
                         <div className='flex justify-end' id='Experience'>
-                            <h2 className='font-bangers comic-text text-4xl border-4 bg-[#4ca7f2] border-customAccentColorGreen w-1/3 pl-9 mb-10'>Experience</h2>
+                            <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Experience</h2>
                         </div>
 
                         <section className="comic-panel">
                             <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
-                                <polygon points="0,0 100,20 100,100 0,80" fill="#1a2c2e" stroke="#000" strokeWidth="2" />
+                                <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
                             </svg>
                             <div className="panel-content">
                                 <h2 className='font-bangers comic-text text-2xl mb-8'>
@@ -150,7 +133,7 @@ const page = () => {
                     </div>
 
                     <div className='mb-20' id='Projects'>
-                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#4ca7f2] border-customAccentColorGreen w-1/3 pl-9 mb-10 items-end'>Projects</h2>
+                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end'>Projects</h2>
                         <div className='flex justify-around mb-6 mt-6'>
                             <div>
                                 <ProjectCards title='SpotMe' techStack='Next.js, Dotnet 8, TypeScript, C#, SignalR' imagePath='/spotme.png' altText='Login page for SpotMe App' description='SpotMe is a social fitness platform that helps gym-goers connect, share progress, and challenge each other in fun, friendly matchups. Whether you&apos;re looking for a new gym partner, motivation, or a playful rival, SpotMe brings the lifting community together.' projectLink='/Projects/SpotMe' />
@@ -163,7 +146,7 @@ const page = () => {
 
 
                     <div className='mb-20' id='NotJustADeveloper'>
-                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#4ca7f2] border-customAccentColorGreen w-1/3 pl-9 mb-10'>Not just a Developer</h2>
+                        <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Not just a Developer</h2>
 
                         <section className="comic-panel">
                             <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
@@ -197,7 +180,7 @@ const page = () => {
 
                     <div>
                         <div className='place-items-center' id='Socials'>
-                            <h2 className='font-bangers comic-text text-4xl border-4 bg-[#4ca7f2] border-customAccentColorGreen w-1/3 pl-9 mb-10'>Socials</h2>
+                            <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Socials</h2>
                         </div>
 
                         <div className='border-6 border-black flex justify-around bg-[#3a3f45] h-[20vh] p-4'>
