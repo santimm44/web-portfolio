@@ -143,7 +143,7 @@ const page = () => {
                                 </h2>
                                 <div className=''>
                                     <p className='indent-4'>
-                                    I'm a committed supporter of the American Red Cross because I believe donating blood is a simple act that can save lives. Every 56 days, a quick 20-minute whole blood donation can make the difference for someone in critical need—it's easier than waiting in line for coffee. While I now focus on platelet donations, which take longer and aren't for everyone, I encourage anyone interested to talk to ARC staff and learn more. If you're looking to join a donor community, check out my ARC team:
+                                    I&apos;m a committed supporter of the American Red Cross because I believe donating blood is a simple act that can save lives. Every 56 days, a quick 20-minute whole blood donation can make the difference for someone in critical need—it&apos;s easier than waiting in line for coffee. While I now focus on platelet donations, which take longer and aren&apos;t for everyone, I encourage anyone interested to talk to ARC staff and learn more. If you&apos;re looking to join a donor community, check out my ARC team:
                                         <a className="text-blue-500 underline" target="_blank" href="https://redcrossblood.app.link/jointeam-6769e59d1c7ac/78495"> Asclepius.</a>
                                     </p>
                                 </div>
