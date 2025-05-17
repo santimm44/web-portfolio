@@ -18,11 +18,11 @@ const page = () => {
                 <Image className='absolute' src='/skyline.jpg' fill={true} alt='Comic book skyscraper background' />
 
                 <div className=' flex justify-around relative'>
-                    <div className='w-[24rem] max-md:w-[16rem] border-2 border-black md:angled-section h-[22rem] max-md:top-5 top-10 overflow-hidden absolute'>
+                    <div className='w-[24rem] max-md:w-[16rem] border-2 border-black angled-section h-[22rem] max-md:top-5 top-10 overflow-hidden absolute'>
                         <Image objectFit='cover' src='/2024Portrait.jpg' fill={true} alt='portrait' />
                     </div>
 
-                    <div className='absolute top-[45vh] max-md:top-[52vh] left-[15vw] max-md:left-[5vw] right-[5vw]'>
+                    <div className='absolute top-[53vh] max-md:top-[52vh] left-[15vw] max-md:left-[5vw] right-[5vw]'>
                         <section className="comic-panel h-[36vh] max-md:h-[63vh]">
                             <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
                                 <polygon points="0,0 100,25 100,100 0,75" fill="#f2c94c" stroke="#000" strokeWidth="2" />
@@ -32,20 +32,19 @@ const page = () => {
                                 <h2 className='font-bangers text-xl mb-4 max-md:text-lg'>
                                     Full-Stack Web Developer | API Specialist | Builder of Meaningful Tech
                                 </h2>
-                                <div className=''>
-                                    <p className='indent-4 max-md:text-sm'>
+                                <p className='indent-4 text-sm'>
+
+                                    <span className='max-md:text-sm'>
                                         I&apos;m a passionate full-stack developer with a strong focus on back-end and API development using C#, ASP.NET, and JavaScript/TypeScript.
-                                    </p>
-                                    <p className='max-md:hidden'>
-                                    I specialize in building scalable web applications and clean, well-documented APIs that serve real-world needs.
-                                    </p>
-                                    <p className='max-md:hidden'>
+                                    </span>
+                                    <span className='max-md:hidden'>
+                                        I specialize in building scalable web applications and clean, well-documented APIs that serve real-world needs.
+                                    </span>
+                                    <span className='max-md:hidden'>
                                         My front-end experience includes React, Next.js, and Tailwind CSS, allowing me to bring full projects to life from database to UI.
-                                    </p>
-
-                                </div>
+                                    </span>
+                                </p>
                             </div>
-
                         </section>
                     </div>
 
