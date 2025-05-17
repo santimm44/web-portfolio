@@ -14,7 +14,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
             <div className=' background-dots min-h-screen relative flex flex-col justify-between'>
 
                 {children}
-                <div className='bg-[#4ca7f2] fixed shadow-[0px_0px_0px_4px_black] p-[1%]  left-[2%] top-[10%] gap-y-[4%] h-[66vh] w-[11%] flex flex-col flex-wrap'>
+                <div className='bg-[#4ca7f2] max-lg:hidden fixed shadow-[0px_0px_0px_4px_black] p-[1%]  left-[2%] top-[10%] gap-y-[4%] h-[66vh] w-[11%] flex flex-col flex-wrap'>
                     <div>
                         <a href="#TechStack">
                             <CustomButton text='Tech Stack' />
