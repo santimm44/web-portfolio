@@ -60,7 +60,7 @@ const page = () => {
 
                             <div className='border-6 border-black grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-4 bg-[#3a3f45] p-4'>
 
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className=' h-1/2 max-md:h-1/3 w-max' src={nextjsIcon} alt='Github Icon / button' />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Next.js</h3>
                                 </div>
@@ -164,8 +164,8 @@ const page = () => {
                         </div>
 
                         <div className='max-md:p-4'>
-                            <div className='border-6 border-black flex justify-around max-md:flex-col bg-[#3a3f45] h-[20vh] max-md:h-full '>
-                                <div className='h-full rounded-2xl p-4 border-transparent border-4 hover:bg-[#4ca7f2] hover:border-[#FF7C16]'>
+                            <div className='flex justify-around max-md:flex-col h-[20vh] max-md:h-full '>
+                                <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://github.com/santimm44" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
                                             <Image loading='lazy' src='/icons/github.png' alt='Github Icon / button' width={80} height={80} />
@@ -173,7 +173,7 @@ const page = () => {
                                         </div>
                                     </a>
                                 </div>
-                                <div className='h-full rounded-2xl p-4 border-transparent border-4 hover:bg-[#4ca7f2] hover:border-[#FF7C16]'>
+                                <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://www.instagram.com/_santiagoj.m" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
                                             <Image loading='lazy' src='/icons/instagram.png' alt='Instagram Icon / button' width={80} height={80} />
@@ -181,7 +181,7 @@ const page = () => {
                                         </div>
                                     </a>
                                 </div>
-                                <div className='h-full rounded-2xl p-4 border-transparent border-4 hover:bg-[#4ca7f2] hover:border-[#FF7C16]'>
+                                <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://www.linkedin.com/in/santiago-jm" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
                                             <Image loading='lazy' src='/icons/linkedin.webp' alt='LinkedIn Icon / button' width={80} height={80} />

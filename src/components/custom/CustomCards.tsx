@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ProjectCards = ({ title, projectLink, description, imagePath, altText, techStack }: { title: string, projectLink: string, description: string, imagePath: string, altText: string, techStack: string }) => {
     return (
-        <div className="group h-full max-w-xs shadow-[0px_0px_0px_4px_#0CCA4A] bg-zinc-900 hover:shadow-[#4ca7f2] transition-shadow duration-900">
+        <div className="group h-full max-w-xs shadow-[0px_0px_0px_2px_#0CCA4A] bg-zinc-900 hover:shadow-[#FF7C16] transition-shadow duration-500">
             <img src={imagePath} alt={altText} className="w-full h-1/3 object-cover border-b-4 border-gray-600"/>
             <div className="p-2 flex flex-col justify-between h-2/3 mt-2">
                 <div >
