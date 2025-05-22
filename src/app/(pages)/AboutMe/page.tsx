@@ -4,6 +4,7 @@ import React from 'react'
 import { ProjectCards } from '@/components/custom/CustomCards';
 
 import nextjsIcon from '/public/icons/nextjs.png'
+import HomePageDoubleImage from '@/components/custom/ImageComponents';
 
 export const metadata: Metadata = {
     title: "Crafting Code | Santiago",
@@ -17,10 +18,8 @@ const page = () => {
             <div className='h-[100vh] max-md:h-[117vh] relative mb-20'>
                 <Image className='absolute' src='/skyline.jpg' fill={true} alt='Comic book skyscraper background' />
 
-                <div className=' flex justify-around relative'>
-                    <div className='w-[24rem] max-md:w-[16rem] border-2 border-black angled-section h-[22rem] max-md:top-5 top-10 overflow-hidden absolute'>
-                        <Image objectFit='cover' src='/2024Portrait.jpg' fill={true} alt='portrait' />
-                    </div>
+                <div className='flex justify-around relative'>
+                    <HomePageDoubleImage/>
 
                     <div className='absolute top-[53vh] max-md:top-[52vh] left-[15vw] max-md:left-[5vw] right-[5vw]'>
                         <section className="comic-panel h-[36vh] max-md:h-[63vh]">
