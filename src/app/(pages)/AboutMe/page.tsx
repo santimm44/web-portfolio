@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import Image from 'next/image'
 import React from 'react'
-import { ProjectCards } from '@/components/custom/CustomCards';
-
+import hamsterHotel from '/public/hamsterhotel.png'
+import monsterSeeker from '/public/monsterseeker.png'
+import puppyRest from '/public/puppyrest.png'
+import spotMe from '/public/spotme2.png'
 import nextjsIcon from '/public/icons/nextjs.png'
 import HomePageDoubleImage from '@/components/custom/ImageComponents';
 
@@ -16,7 +18,7 @@ const page = () => {
     return (
         <div>
             <div className='h-[100vh] max-md:h-[117vh] relative mb-20'>
-                <Image className='absolute' src='/skyline.jpg' fill={true} alt='Comic book skyscraper background' />
+                <Image className='absolute' src='/skyline.png' fill={true} alt='Comic book skyscraper background' />
 
                 <div className='flex justify-around relative'>
                     <HomePageDoubleImage/>
@@ -60,34 +62,34 @@ const page = () => {
                             <div className='border-6 border-black grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-4 bg-[#3a3f45] p-4'>
 
                                 <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
-                                    <Image loading='lazy' className=' h-1/2 max-md:h-1/3 w-max' src={nextjsIcon} alt='Github Icon / button' />
+                                    <Image loading='lazy' className=' h-1/2 max-md:h-1/3 w-max' src={nextjsIcon}alt='Github Icon / button' />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Next.js</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/CSS.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>CSS</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/typescript.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>TypeScript</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/csharp.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>C#</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/azure.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Azure</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/git.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Git</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/figma.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Figma</h3>
                                 </div>
-                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-between max-md:justify-around max-md:p-0 items-center'>
+                                <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
                                     <Image loading='lazy' className='h-1/2 max-md:h-1/3 w-max' src='/icons/vscode.png' alt='Github Icon / button' width={80} height={80} />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>VS Code</h3>
                                 </div>
@@ -125,12 +127,18 @@ const page = () => {
 
                     <div className='' id='Projects'>
                         <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end max-md:p-4 max-md:w-2/3'>Projects</h2>
-                        <div className='flex justify-around max-md:flex-col max-md:items-center max-md:gap-y-6 mb-6 mt-6'>
-                            <div>
-                                <ProjectCards title='SpotMe' techStack='Next.js, Dotnet 8, TypeScript, C#, SignalR' imagePath='/spotme.png' altText='Login page for SpotMe App' description='SpotMe is a social fitness platform that helps gym-goers connect, share progress, and challenge each other in fun, friendly matchups. Whether you&apos;re looking for a new gym partner, motivation, or a playful rival, SpotMe brings the lifting community together.' projectLink='https://new-front-end-git-main-santiagos-projects-644d1af6.vercel.app/' />
+                        <div className='grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 gap-4 mb-6 mt-6'>
+                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
+                                <Image src={spotMe} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
                             </div>
-                            <div>
-                                <ProjectCards title='PokeSeek: Gen I–VI' techStack='Next.js & TypeScript' imagePath='/PokemonFinderApp.png' altText='Image of PokeSeek: Gen I–VI app dashboard' description='PokeSeek: Gen I–VI is your ultimate companion for locating and learning about every Pokémon from the first six generations, from Kanto to Kalos. Whether you&apos;re building your dream team or completing your legacy Pokédex, PokeSeek makes it easy to find stats, types, and encounter locations all in one place.' projectLink='https://montanez-sjp-pokemon-api.vercel.app/' />
+                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
+                                <Image src={puppyRest} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                            </div>
+                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
+                                <Image src={hamsterHotel} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                            </div>
+                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
+                                <Image src={monsterSeeker} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
                             </div>
                         </div>
                     </div>
@@ -166,8 +174,10 @@ const page = () => {
                             <div className='flex justify-around max-md:flex-col h-[20vh] max-md:h-full '>
                                 <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://github.com/santimm44" target="_blank" rel="noopener noreferrer">
-                                        <div className='place-content-center place-items-center max-md:text-center'>
-                                            <Image loading='lazy' src='/icons/github.png' alt='Github Icon / button' width={80} height={80} />
+                                        <div className='place-content-center place-items-center max-md:text-center '>
+                                            <div className='bg-amber-200 rounded-full'>
+                                            <Image loading='lazy' src='/cbIcons/cb2Github.png' alt='Github Icon / button' width={80} height={80} />
+                                            </div>
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Github</h3>
                                         </div>
                                     </a>
@@ -175,7 +185,9 @@ const page = () => {
                                 <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://www.instagram.com/_santiagoj.m" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
-                                            <Image loading='lazy' src='/icons/instagram.png' alt='Instagram Icon / button' width={80} height={80} />
+                                            <div className='bg-amber-200 rounded-full'>
+                                            <Image loading='lazy' src='/cbIcons/cb2Instagram.png' alt='Instagram Icon / button' width={80} height={80} />
+                                            </div>
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Instagram</h3>
                                         </div>
                                     </a>
@@ -183,7 +195,9 @@ const page = () => {
                                 <div className='h-full group p-4 border-b-2 border-transparent transition-all duration-300 hover:border-b-[#FF7C16]'>
                                     <a href="https://www.linkedin.com/in/santiago-jm" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
-                                            <Image loading='lazy' src='/icons/linkedin.webp' alt='LinkedIn Icon / button' width={80} height={80} />
+                                            <div className='bg-amber-200 rounded-full'>
+                                            <Image loading='lazy' src='/cbIcons/cb2Linkedin.png' alt='LinkedIn Icon / button' width={80} height={80} />
+                                            </div>
 
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>LinkedIn</h3>
                                         </div>

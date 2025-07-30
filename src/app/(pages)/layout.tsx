@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 
 const layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        // Original BG before the dot class was made bg-[linear-gradient(to_bottom,_#2d1b3c,_#1a2c2e)]
         <div>
             <div className=' background-dots min-h-screen relative flex flex-col justify-between'>
 
