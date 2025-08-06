@@ -21,7 +21,7 @@ const page = () => {
                 <Image className='absolute' src='/skyline.png' fill={true} alt='Comic book skyscraper background' />
 
                 <div className='flex justify-around relative'>
-                    <HomePageDoubleImage/>
+                    <HomePageDoubleImage />
 
                     <div className='absolute top-[53vh] max-md:top-[52vh] left-[15vw] max-md:left-[5vw] right-[5vw]'>
                         <section className="comic-panel h-[36vh] max-md:h-[63vh]">
@@ -62,7 +62,7 @@ const page = () => {
                             <div className='border-6 border-black grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-4 bg-[#3a3f45] p-4'>
 
                                 <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
-                                    <Image loading='lazy' className=' h-1/2 max-md:h-1/3 w-max' src={nextjsIcon}alt='Github Icon / button' />
+                                    <Image loading='lazy' className=' h-1/2 max-md:h-1/3 w-max' src={nextjsIcon} alt='Github Icon / button' />
                                     <h3 className='font-bangers comic-text text-4xl max-md:text-2xl'>Next.js</h3>
                                 </div>
                                 <div className='h-full p-2 border-[#FF7C16] border-4 bg-[#2d1b3c] flex flex-col justify-around max-md:justify-around max-md:p-0 items-center'>
@@ -129,16 +129,24 @@ const page = () => {
                         <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end max-md:p-4 max-md:w-2/3'>Projects</h2>
                         <div className='grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 gap-4 mb-6 mt-6'>
                             <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <Image src={spotMe} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                <a href="https://new-front-end-xi.vercel.app/" target="_blank">
+                                    <Image src={spotMe} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                </a>
                             </div>
                             <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <Image src={puppyRest} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                <a href="#" target="_blank">
+                                    <Image src={puppyRest} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                </a>
                             </div>
                             <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <Image src={hamsterHotel} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                <a href="#" target="_blank">
+                                    <Image src={hamsterHotel} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                </a>
                             </div>
                             <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <Image src={monsterSeeker} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
+                                <a href="https://pokemon-rebuild-git-main-santiagos-projects-644d1af6.vercel.app/dashboard" target="_blank">
+                                    <Image src={monsterSeeker} alt='PokeSeeker AI Comicbook style Thumbnail' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -176,7 +184,7 @@ const page = () => {
                                     <a href="https://github.com/santimm44" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center '>
                                             <div className='bg-amber-200 rounded-full'>
-                                            <Image loading='lazy' src='/cbIcons/cb2Github.png' alt='Github Icon / button' width={80} height={80} />
+                                                <Image loading='lazy' src='/cbIcons/cb2Github.png' alt='Github Icon / button' width={80} height={80} />
                                             </div>
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Github</h3>
                                         </div>
@@ -186,7 +194,7 @@ const page = () => {
                                     <a href="https://www.instagram.com/_santiagoj.m" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
                                             <div className='bg-amber-200 rounded-full'>
-                                            <Image loading='lazy' src='/cbIcons/cb2Instagram.png' alt='Instagram Icon / button' width={80} height={80} />
+                                                <Image loading='lazy' src='/cbIcons/cb2Instagram.png' alt='Instagram Icon / button' width={80} height={80} />
                                             </div>
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>Instagram</h3>
                                         </div>
@@ -196,7 +204,7 @@ const page = () => {
                                     <a href="https://www.linkedin.com/in/santiago-jm" target="_blank" rel="noopener noreferrer">
                                         <div className='place-content-center place-items-center max-md:text-center'>
                                             <div className='bg-amber-200 rounded-full'>
-                                            <Image loading='lazy' src='/cbIcons/cb2Linkedin.png' alt='LinkedIn Icon / button' width={80} height={80} />
+                                                <Image loading='lazy' src='/cbIcons/cb2Linkedin.png' alt='LinkedIn Icon / button' width={80} height={80} />
                                             </div>
 
                                             <h3 className='font-bangers comic-text w-full text-4xl pt-2 '>LinkedIn</h3>

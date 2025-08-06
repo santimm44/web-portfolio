@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my work, skills, and personality — all styled with a bold, comic book-inspired design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## The Man Behind Everything
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Developer: Santiago Jesus Montanez**
+A passionate full-stack developer with a flair for design, storytelling, and bringing creativity into code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Key Features
 
-## Learn More
+- **Single-page application** for fast, seamless navigation
+- **Comic book themes** - bold, stylized, and personable to me
+- **Built with:** Next.js & Tailwind CSS
+- **Secctions:** Tech stack, experience, projects, beyond development, and socials
+- **Responsive design** - for mobile and tablet devices
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Coming Soon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Button-cards for projects will soon have live links
+- A new link to my blog site will be addedd once it's released
+- A new font pair for headers and body text will replacing current one
+  - Issue: Current font pair doesn't support variable sizing
+  - Approach: Find free, open-source fonts that match the comic book theme and allow flexible scaling
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Project Status
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Actively maintained and updated as I grow my skills and portfolio.
