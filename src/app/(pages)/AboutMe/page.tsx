@@ -155,7 +155,7 @@ I sincerely hope to get into retail management to help improve my standing. Cros
                                     </p>
                                     
                                     <p className='indent-4 max-lg:text-sm'>
-                                                                                 I worked in Marketing and Communication from January 2026 - July 2026, and while there I assisted with the school's website managing content such as authoring web pages, fixing site issues, working with staff and faculty on improving sections of the site, and other cool things.   
+                                                                                 I worked in Marketing and Communication from January 2026 - July 2026, and while there I assisted with the school&aposs website managing content such as authoring web pages, fixing site issues, working with staff and faculty on improving sections of the site, and other cool things.   
                                     </p>
                                 </div>
                             </div>
@@ -185,11 +185,29 @@ I sincerely hope to get into retail management to help improve my standing. Cros
 
                     <div className='' id='Projects'>
                         <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end max-md:p-4 max-md:w-2/3'>Projects</h2>
-                        <div className='grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 gap-4 mb-6 mt-6'>
-                            <h3>
-                                NEw Projects
-                            </h3>
-                        </div>
+                        
+                        <section className="comic-panel  max-md:h-[72vh]">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
+                                <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
+                            </svg>
+                            <div className="panel-content">
+                                <div className='mb-8 max-md:mt-16'>
+                                    <h2 className='font-bangers comic-text text-2xl '>
+                                        Junction Chatter Club
+                                    </h2>
+                                    <h3 className='max-lg:text-sm'>WPF | XAML | C# | DOTNET 10</h3>
+                                    <h4 className='text-[#C0C0C0] max-lg:text-sm '>October 2026 - Present</h4>
+                                </div>
+                                <div className='pb-12'>
+                                    <p className='indent-4 max-lg:text-sm'>
+                                        Ya ever liked listening to podcasts, but thought, &quot;Man, I hate the ads&quot; or &quot;If only I can just have more control and better features for free&quot;, well JCC is the solution. Sorta, if you have Windows, and know it even exists, but hey, it will be out soon. How soon? IDK, soon I guess. I just started it...
+                                    </p>
+                                    <p className='indent-4 max-lg:text-sm'>
+                                        This is a podcast listening app. I enjoy listening to podcasts, but I hate the pay wall for features I think should be free. This app is a solution to MY NEEDS, so keep that in mind. Link to GitHub will be added below
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
                     </div>
 
 
