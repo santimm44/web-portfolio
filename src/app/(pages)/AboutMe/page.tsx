@@ -1,10 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image'
 import React from 'react'
-import hamsterHotel from '/public/hamsterhotel.png'
-import monsterSeeker from '/public/monsterseeker.png'
-import puppyRest from '/public/puppyrest.png'
-import spotMe from '/public/spotme2.png'
 import nextjsIcon from '/public/icons/nextjs.png'
 import HomePageDoubleImage from '@/components/custom/ImageComponents';
 
@@ -128,26 +124,9 @@ const page = () => {
                     <div className='' id='Projects'>
                         <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end max-md:p-4 max-md:w-2/3'>Projects</h2>
                         <div className='grid max-md:grid-cols-2 max-md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 gap-4 mb-6 mt-6'>
-                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <a href="https://new-front-end-xi.vercel.app/" target="_blank">
-                                    <Image src={spotMe} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
-                                </a>
-                            </div>
-                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <a href="#" target="_blank">
-                                    <Image src={puppyRest} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
-                                </a>
-                            </div>
-                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <a href="#" target="_blank">
-                                    <Image src={hamsterHotel} alt='SpotMe Thumbnail. Comicbook cover for the SpotMe project. Opens modal with more informtion' />
-                                </a>
-                            </div>
-                            <div className='hover:shadow-[-.2rem_.35rem_0rem_.25rem_#f2c94c] cursor-pointer group transition-all duration-500'>
-                                <a href="https://pokemon-rebuild-git-main-santiagos-projects-644d1af6.vercel.app/dashboard" target="_blank">
-                                    <Image src={monsterSeeker} alt='PokeSeeker AI Comicbook style Thumbnail' />
-                                </a>
-                            </div>
+                            <h3>
+                                NEw Projects
+                            </h3>
                         </div>
                     </div>
 
@@ -161,12 +140,14 @@ const page = () => {
                             </svg>
                             <div className="panel-content max-md:mt-16">
                                 <h2 className='font-bangers comic-text text-end text-xl mb-8'>
-                                    Donor at American Red Cross
+                                    Favorite Reads 2026
                                 </h2>
                                 <div className=''>
+                                    <h3>
+                                        A Short Stay In Hell by Steven L. Peck
+                                    </h3>
                                     <p className='indent-4 max-lg:text-sm'>
-                                        I&apos;m a committed supporter of the American Red Cross because I believe donating blood is a simple act that can save lives. Every 56 days, a quick 20-minute whole blood donation can make the difference for someone in critical need—it&apos;s easier than waiting in line for coffee. While I now focus on platelet donations, which take longer and aren&apos;t for everyone, I encourage anyone interested to talk to ARC staff and learn more. If you&apos;re looking to join a donor community, check out my ARC team:
-                                        <a className="text-blue-500 underline" target="_blank" href="https://redcrossblood.app.link/jointeam-6769e59d1c7ac/78495"> Asclepius.</a>
+                                        
                                     </p>
                                 </div>
                             </div>
