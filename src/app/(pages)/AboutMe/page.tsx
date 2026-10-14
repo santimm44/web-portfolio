@@ -101,9 +101,77 @@ const page = () => {
                             <div className="panel-content">
                                 <div className='mb-8 max-md:mt-16'>
                                     <h2 className='font-bangers comic-text text-2xl '>
+                                        Shift Lead @ AMPM
+                                    </h2>
+                                    <h3 className='max-lg:text-sm'>Technical Work TBD</h3>
+                                    <h4 className='text-[#C0C0C0] max-lg:text-sm '> October 2026 - Present</h4>
+                                </div>
+                                <div className='pb-12'>
+                                    <p className='indent-4 max-lg:text-sm'>
+2nd time was the charm. Applied, but was rejected back in February, but now I got it.                                     </p>
+<p className='indent-4 max-lg:text-sm'>
+On top of Guest Service Representative (GSR) work I am now more responsible for store operations. I can now delegate work to the other GSRs and will be trained to do orders, cycle counts, create orders for the store, and much more! As I am writing this I have yet to be trained and management has yet to announce my new assignment as Shift Lead.                                     </p>
+<p className='indent-4 max-lg:text-sm'>
+I sincerely hope to get into retail management to help improve my standing. Crossing my fingers to be a store manager in a year, then a general manager in 2 years. Gotta shoot for the stars, and if I fail then I'd at least land on the moon.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="comic-panel  max-md:h-[72vh]">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
+                                <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
+                            </svg>
+                            <div className="panel-content">
+                                <div className='mb-8 max-md:mt-16'>
+                                    <h2 className='font-bangers comic-text text-2xl '>
+                                        Guest Service Representative @ AMPM
+                                    </h2>
+                                    <h3 className='max-lg:text-sm'>Nothing Technical here, lol</h3>
+                                    <h4 className='text-[#C0C0C0] max-lg:text-sm '>July 2025 - October 2026</h4>
+                                </div>
+                                <div className='pb-12'>
+                                    <p className='indent-4 max-lg:text-sm'>
+                                        A very people focus job since customers come first and foremost. Guest experience is a huge highlight of the job and then juggling daily tasks, special assignments, and time management. I like this job. I am always on my feet, get to talk to people regularly, but just gotta stay away from all the sugary food and drinks.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                                                 <section className="comic-panel  max-md:h-[72vh]">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
+                                <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
+                            </svg>
+                            <div className="panel-content">
+                                <div className='mb-8 max-md:mt-16'>
+                                    <h2 className='font-bangers comic-text text-2xl '>
+                                        General Helper @ San Joaquin Delta College
+                                    </h2>
+                                    <h3 className='max-lg:text-sm'>Drupal 10</h3>
+                                    <h4 className='text-[#C0C0C0] max-lg:text-sm '>September 2025 - July 2026</h4>
+                                </div>
+                                <div className='pb-12'>
+                                    <p className='indent-4 max-lg:text-sm'>
+                                         During my time as a General Helper I worked for two departments. The MESA Program and Marketing and Communication.  
+                                    </p>
+                                    
+                                    <p className='indent-4 max-lg:text-sm'>
+                                                                                 I worked in Marketing and Communication from January 2026 - July 2026, and while there I assisted with the school's website managing content such as authoring web pages, fixing site issues, working with staff and faculty on improving sections of the site, and other cool things.   
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="comic-panel  max-md:h-[72vh]">
+                            <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="comic-border">
+                                <polygon points="0,0 100,20 100,100 0,80" fill="#2d1b3c" stroke="#000" strokeWidth="2" />
+                            </svg>
+                            <div className="panel-content">
+                                <div className='mb-8 max-md:mt-16'>
+                                    <h2 className='font-bangers comic-text text-2xl '>
                                         Team Lead - SpotMe App
                                     </h2>
                                     <h3 className='max-lg:text-sm'>Next.js | Dotnet 8 | TypeScript | C# | SignalR</h3>
+                                    <h4 className='text-[#C0C0C0] max-lg:text-sm '>March 2025 - July 2025</h4>
                                 </div>
                                 <div className='pb-12'>
                                     <p className='indent-4 max-lg:text-sm'>
