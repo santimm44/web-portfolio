@@ -31,9 +31,9 @@ const page = () => {
                                 <p className='indent-4 text-sm'>
 
                                     <span className='max-md:text-sm'>
-                                        I studied computer science and software engineering, and while life hasn't quite taken me where I originally planned, my passion for building software hasn't gone anywhere.                                    </span>
+                                        I studied computer science and software engineering, and while life hasn&apos;t quite taken me where I originally planned, my passion for building software hasn&apos;t gone anywhere.                                    </span>
                                     <span className='max-md:hidden'>
-                                        These days, I'm working toward a career in retail management while continuing to make time for programming, reading, and whatever else catches my attention.                                    </span>
+                                        These days, I&apos;m working toward a career in retail management while continuing to make time for programming, reading, and whatever else catches my attention.                                    </span>
                                 </p>
                             </div>
                         </section>
@@ -112,7 +112,7 @@ const page = () => {
 <p className='indent-4 max-lg:text-sm'>
 On top of Guest Service Representative (GSR) work I am now more responsible for store operations. I can now delegate work to the other GSRs and will be trained to do orders, cycle counts, create orders for the store, and much more! As I am writing this I have yet to be trained and management has yet to announce my new assignment as Shift Lead.                                     </p>
 <p className='indent-4 max-lg:text-sm'>
-I sincerely hope to get into retail management to help improve my standing. Crossing my fingers to be a store manager in a year, then a general manager in 2 years. Gotta shoot for the stars, and if I fail then I'd at least land on the moon.</p>
+I sincerely hope to get into retail management to help improve my standing. Crossing my fingers to be a store manager in a year, then a general manager in 2 years. Gotta shoot for the stars, and if I fail then I&apos;d at least land on the moon.</p>
                                 </div>
                             </div>
                         </section>
