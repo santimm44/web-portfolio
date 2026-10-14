@@ -27,19 +27,13 @@ const page = () => {
                             <div className="panel-content max-md:mt-18">
                                 <h1 className=' font-bangers text-3xl mb-2 max-md:text-xl'>Hi, I&apos;m Santiago Montañez</h1>
                                 <h2 className='font-bangers text-xl mb-4 max-md:text-lg'>
-                                    Full-Stack Web Developer | API Specialist | Builder of Meaningful Tech
-                                </h2>
+                                    DEVELOPER AT HEART | SHIFT LEAD BY TRADE                                </h2>
                                 <p className='indent-4 text-sm'>
 
                                     <span className='max-md:text-sm'>
-                                        I&apos;m a passionate full-stack developer with a strong focus on back-end and API development using C#, ASP.NET, and JavaScript/TypeScript.
-                                    </span>
+                                        I studied computer science and software engineering, and while life hasn't quite taken me where I originally planned, my passion for building software hasn't gone anywhere.                                    </span>
                                     <span className='max-md:hidden'>
-                                        I specialize in building scalable web applications and clean, well-documented APIs that serve real-world needs.
-                                    </span>
-                                    <span className='max-md:hidden'>
-                                        My front-end experience includes React, Next.js, and Tailwind CSS, allowing me to bring full projects to life from database to UI.
-                                    </span>
+                                        These days, I'm working toward a career in retail management while continuing to make time for programming, reading, and whatever else catches my attention.                                    </span>
                                 </p>
                             </div>
                         </section>
