@@ -14,7 +14,7 @@ const page = () => {
     return (
         <div>
             <div className='h-[100vh] max-md:h-[117vh] relative mb-20'>
-                <Image className='absolute' src='/skyline.png' fill={true} alt='Comic book skyscraper background' />
+                <Image className='absolute' src='/pinkdriveway.png' fill={true} alt='Hero BG of pink driveway' />
 
                 <div className='flex justify-around relative'>
                     <HomePageDoubleImage />
