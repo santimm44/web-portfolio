@@ -155,7 +155,7 @@ I sincerely hope to get into retail management to help improve my standing. Cros
                                     </p>
                                     
                                     <p className='indent-4 max-lg:text-sm'>
-                                                                                 I worked in Marketing and Communication from January 2026 - July 2026, and while there I assisted with the school&aposs website managing content such as authoring web pages, fixing site issues, working with staff and faculty on improving sections of the site, and other cool things.   
+                                                                                 I worked in Marketing and Communication from January 2026 - July 2026, and while there I assisted with the school&apos;s website managing content such as authoring web pages, fixing site issues, working with staff and faculty on improving sections of the site, and other cool things.   
                                     </p>
                                 </div>
                             </div>

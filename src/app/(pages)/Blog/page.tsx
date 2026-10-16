@@ -19,12 +19,7 @@ const page = () => {
         <div className='columns-2 place-items-center'>
           <BlogRowCards />
           <BlogRowCards />
-          <BlogRowCards />
-          <BlogRowCards />
-          <BlogRowCards />
-          <BlogRowCards />
-          <BlogRowCards />
-          <BlogRowCards />
+         
         </div>
         <div className='place-items-end bg-customAccentColorGreen rounded-sm mt-2 mb-4 '>
           <PaginationDemo />
