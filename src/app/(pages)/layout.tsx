@@ -40,26 +40,20 @@ const layout = ({ children }: { children: React.ReactNode }) => {
                             <CustomButton text='Socials' />
                         </a>
                     </div>
-                    <div className='flex-wrap'>
-                        <a href="/SantiagoJMontanez-Resume.pdf" download>
-                            <CustomButton text='Resume' />
-                        </a>
-                    </div>
-
+                   
                     <div>
                         <a href="mailto:santiagomm44@gmail.com">
                             <CustomButton text='Email Me' />
 
                         </a>
                     </div>
-
                     <div>
-                        <a href="tel:+12094792335">
-                            <CustomButton text='Call'/>
+                        <a href="/Blog">
+                            <CustomButton text='Blog'/>
                         </a>
                     </div>
 
-                </div>
+                                    </div>
 
             </div>
         </div>
