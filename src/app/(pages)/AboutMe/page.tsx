@@ -89,6 +89,7 @@ const page = () => {
 
                     </div>
 
+                    {/* Work Experience Section */}
                     <div className='mb-20'>
                         <div className='flex justify-end' id='Experience'>
                             <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 max-md:p-4 max-md:w-2/3'>Experience</h2>
@@ -183,6 +184,7 @@ I sincerely hope to get into retail management to help improve my standing. Cros
 
                     </div>
 
+                    {/* Projects Sections */}
                     <div className='' id='Projects'>
                         <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10 items-end max-md:p-4 max-md:w-2/3'>Projects</h2>
                         
@@ -211,6 +213,7 @@ I sincerely hope to get into retail management to help improve my standing. Cros
                     </div>
 
 
+                    {/* Beyond Dev Section */}
                     <div className='mb-20' id='NotJustADeveloper'>
                         <h2 className='font-bangers max-md:p-4 max-md:w-2/3 comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 pl-9 mb-10'>Beyond Dev</h2>
 
