@@ -234,7 +234,8 @@ I sincerely hope to get into retail management to help improve my standing. Cros
                         </section>
                     </div>
 
-                    <div>
+                    {/* Social Section */}
+                    {/* <div>
                         <div className='place-items-center' id='Socials'>
                             <h2 className='font-bangers comic-text text-4xl border-4 bg-[#1a2c2e] border-black w-1/3 max-md:w-2/3 pl-9 max-md:p-4 mb-10'>Socials</h2>
                         </div>
@@ -275,7 +276,7 @@ I sincerely hope to get into retail management to help improve my standing. Cros
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
