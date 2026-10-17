@@ -13,40 +13,13 @@ const layout = ({ children }: { children: React.ReactNode }) => {
             <div className=' background-dots min-h-screen relative flex flex-col justify-between'>
 
                 {children}
-                <div className='bg-[#1a2c2e] max-lg:hidden fixed shadow-[0px_0px_0px_4px_black] p-[1%]  left-[2%] top-[10%] gap-y-[4%] h-[66vh] w-[11%] flex flex-col justify-around'>
+                <div className='bg-[#1a2c2e] max-lg:hidden fixed shadow-[0px_0px_0px_4px_black] p-[1%]  left-[2%] top-[10%] gap-y-[4%] h-[66vh] w-[11%] flex flex-col '>
                     <div>
-                        <a href="#TechStack">
-                            <CustomButton text='Tech Stack' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#Experience">
-                            <CustomButton text='Experience' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#Projects">
-
-                            <CustomButton text='Projects' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#NotJustADeveloper">
-                            <CustomButton text='Beyond Dev' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#Socials">
-                            <CustomButton text='Socials' />
+                        <a href="/AboutMe">
+                            <CustomButton text='Home' />
                         </a>
                     </div>
                    
-                    <div>
-                        <a href="mailto:santiagomm44@gmail.com">
-                            <CustomButton text='Email Me' />
-
-                        </a>
-                    </div>
                     <div>
                         <a href="/Blog">
                             <CustomButton text='Blog'/>
