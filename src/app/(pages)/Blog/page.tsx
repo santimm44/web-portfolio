@@ -2,6 +2,9 @@ import { BlogRowCards } from '@/components/custom/CustomCards'
 import { PaginationDemo } from '@/components/custom/Pagination'
 import { Metadata } from 'next';
 import React from 'react'
+// import fs from 'fs';
+// import path from 'path';
+// import matter from 'gray-matter';
 
 export const metadata: Metadata = {
   title: "Build. Break. Blog. | Santiago",
@@ -11,10 +14,6 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-    {/* <Head>
-      <title> Build. Break. Blog. - Santiago</title>
-    </Head> */}
-
       <div className='flex flex-col relative justify-between min-h-[75vh] place-items-center'>
         <div className='columns-2 place-items-center'>
           <BlogRowCards />
