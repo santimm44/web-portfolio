@@ -1,4 +1,5 @@
 import { BlogRowCards } from '@/components/custom/CustomCards'
+import { GeneralHeader } from '@/components/custom/Headers';
 import { PaginationDemo } from '@/components/custom/Pagination'
 import { Metadata } from 'next';
 import React from 'react'
@@ -14,6 +15,9 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
+    {/* This is to test the component 'GeneralHeader' */}
+    <GeneralHeader title={metadata.title as string}/>
+
       <div className='flex flex-col relative justify-between min-h-[75vh] place-items-center'>
         <div className='columns-2 place-items-center'>
           <BlogRowCards />
