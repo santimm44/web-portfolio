@@ -3,6 +3,16 @@ import { Card } from '../ui/card'
 import { Button } from '../ui/button'
 import Image from 'next/image'
 
+interface BlogRowCardsProps {
+  title: string;
+  subtitle: string;
+  date: string;
+  description: string;
+  imagePath: string;
+  altText: string;
+  articleLink: string;
+}
+
 const ProjectCards = ({ title, projectLink, description, imagePath, altText, techStack }: { title: string, projectLink: string, description: string, imagePath: string, altText: string, techStack: string }) => {
     return (
         <div className="group h-full max-w-xs shadow-[0px_0px_0px_2px_#0CCA4A] bg-zinc-900 hover:shadow-[#FF7C16] transition-shadow duration-500">
@@ -40,26 +50,44 @@ const ProjectRowCards = () => {
     )
 }
 
-const BlogRowCards = () => {
-    return (
-        <Card className='flex w-4/5 bg-customForegroud mb-5 ps-3 pe-3 rounded-xs' >
-            <Image className='' src='/defaultBlogImage.jpg' width={1080} height={50} alt="image" />
-            <div className="border-b-2 border-black flex flex-col items-start">
-                <h3 className='text-xl font-semibold'>Article Title</h3>
-                <h4 className='text-base'>Subtitle</h4>
-                <h4 className='text-xs'>Date</h4>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga magnam consequuntur dicta? Ullam perspiciatis, debitis quas, et magnam repellendus doloribus, atque officia cupiditate voluptas maiores alias commodi quaerat deleniti.
-            </p>
-            <div className='place-items-center'>
-                <Button className="mt-2 text-sm text-red-400 w-1/4 bg-transparent">
-                    View Article →
-                </Button>
-            </div>
-        </Card>
-    )
-}
+
+const BlogRowCards = ({
+  title,
+  subtitle,
+  date,
+  description,
+  imagePath,
+  altText,
+  articleLink,
+}: BlogRowCardsProps) => {
+  return (
+    <Card className='flex w-4/5 bg-customForegroud mb-5 ps-3 pe-3 rounded-xs'>
+      <Image
+        src={imagePath}
+        width={1080}
+        height={50}
+        alt={altText}
+      />
+
+      <div className='border-b-2 border-black flex flex-col items-start'>
+        <h3 className='text-xl font-semibold'>{title}</h3>
+        <h4 className='text-base'>{subtitle}</h4>
+        <h4 className='text-xs'>{date}</h4>
+      </div>
+
+      <p>{description}</p>
+
+      <div className='place-items-center'>
+        <Button
+          asChild
+          className='mt-2 text-sm text-red-400 w-1/4 bg-transparent'
+        >
+          <a href={articleLink}>View Article →</a>
+        </Button>
+      </div>
+    </Card>
+  );
+};
 
 
 export { ProjectCards, ProjectRowCards, BlogRowCards }
