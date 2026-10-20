@@ -24,9 +24,7 @@ const page = () => {
           <BlogRowCards />
          
         </div>
-        <div className='place-items-end bg-customAccentColorGreen rounded-sm mt-2 mb-4 '>
-          <PaginationDemo />
-        </div>
+        
       </div>
     </>
   )
